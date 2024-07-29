@@ -21,8 +21,6 @@ No security is set so https will not work
 
 ## Automated tests
 
-To run the automated tests, go under the karate-tests directory and run
-
 ```bash
 mvn clean test
 ```
