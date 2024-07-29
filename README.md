@@ -27,6 +27,13 @@ mvn clean test
 
 ## Redis
 
+Install docker and docker desktop
+make sure the docker deamon is running and the redis container started
+```bash
+mvn clean test
+sudo dockerd 
+sudo docker run -p 6379:6379 -it redis/redis-stack:latest &
+```
 
 
 ## Improvements
