@@ -10,7 +10,7 @@ import org.hibernate.validator.constraints.URL;
 import jakarta.validation.constraints.NotEmpty;
 
 /**
- * Input model for shorten endpoint.
+ * Input model for POST /url endpoint.
  */
 @Getter
 @Setter

@@ -66,8 +66,8 @@ public class ErrorHandler {
 	 */
 	@ExceptionHandler(UrlNotFoundException.class)
 	@ResponseStatus(HttpStatus.NOT_FOUND)
-	public ErrorResponse handleUserNotFoundException(HttpServletRequest request, Exception ex) {
-		logErrorMessage("User Not Found: ", ex);
+	public ErrorResponse handleUrlNotFoundException(HttpServletRequest request, Exception ex) {
+		logErrorMessage("Url Not Found: ", ex);
 
 		return new ErrorResponse(
 			UrlNotFoundException.getStatus(),
